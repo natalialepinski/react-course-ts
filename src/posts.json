@@ -1,0 +1,76 @@
+{
+	"posts": [
+		{
+			"id": 1,
+			"author": {
+                "user_id": 1
+            },
+			"publishedAt": "2024-07-18T09:30:00Z",
+			"content": "<p>Hi All!</p> <p>This is my first post.</p>",
+            "comments": [
+                {
+                    "id": 1,
+                    "post_id": 1,
+                    "user_id": 2,  
+                    "content": "<p>Yeah! Welcome!</p>", 
+                    "likes": 20
+                },
+                {
+                    "id": 2,
+                    "post_id": 1,
+                    "user_id": 3,
+                    "content": "<p>Nice!</p>",
+                    "likes": 8 
+                }
+            ]
+		},
+		{
+			"id": 2,
+			"author": {
+                "user_id": 1
+            },
+			"publishedAt": "2024-07-19T10:00:00Z",
+			"content": "Learning ReactJS opens up a powerful world of building interactive and dynamic user interfaces for web applications. ReactJS, developed and maintained by Facebook, has become one of the most popular JavaScript libraries for front-end development due to its component-based architecture and efficient rendering capabilities.",
+            "comments": [
+                {
+                    "id": 1,
+                    "post_id": 2,
+                    "user_id": 2,
+                    "content": "<p>Really cool!</p>", 
+                    "likes": 50
+                }
+            ]
+		},
+		{
+			"id": 3,
+			"author": {
+                "user_id": 1
+            },
+			"publishedAt": "2024-07-20T10:00:00Z",
+			"content": "What's your opinion about ReactJS?",
+            "comments": [
+                {
+                    "id": 1,
+                    "post_id": 3,
+                    "user_id": 2,
+                    "content": "<p>I love ReactJS!</p>", 
+                    "likes": 46
+                },
+                {
+                    "id": 2,
+                    "post_id": 3,
+                    "user_id": 3,
+                    "content": "<p>I prefer Angular.</p>",
+                    "likes": 25 
+                },
+                {
+                    "id": 3,
+                    "post_id": 3,
+                    "user_id": 4,
+                    "content": "<p>Cool, but VueJS FTW!</p>",
+                    "likes": 10 
+                }
+            ]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "avatar_url": "https://github.com/natalialepinski.png",
+            "name": "Natalia Lepinski",
+            "role": "Software Developer",
+            "active": true
+        },
+        {
+            "id": 2,
+            "avatar_url": "https://images.unsplash.com/photo-1702478553542-3aa3c0148543?q=50&w=200&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "name": "Lily Schumer",
+            "role": "Front-end Developer"
+        },
+        {
+            "id": 3,
+            "avatar_url": "https://images.unsplash.com/photo-1668554245893-2430d0077217?q=50&w=200&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "name": "Dan Humphrey",
+            "role": "Full-Stack Developer"      
+        },
+        {
+            "id": 4,
+            "avatar_url": "https://plus.unsplash.com/premium_photo-1678453147620-d4866d7562e8?q=40&w=200&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "name": "Hannah Montana",
+            "role": "Front-end Developer"       
+        }
+    ]
+}
